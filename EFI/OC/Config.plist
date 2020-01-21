@@ -661,6 +661,21 @@
 				<key>model</key>
 				<string>HD Graphics 5500</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>hda-idle-support</key>
+				<string>1</string>
+				<key>layout-id</key>
+				<data>IAAAAA==</data>
+				<key>model</key>
+				<string>Intel Wildcat Point-LP High Definition Audio Controller</string>
+				<key>name</key>
+				<string>Sound Card</string>
+			</dict>
 		</dict>
 		<key>Block</key>
 		<dict>
@@ -1188,11 +1203,9 @@
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
-				<string>UIScale</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
-				<string>boot-args</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
